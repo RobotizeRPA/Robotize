@@ -11,7 +11,10 @@ import Employe from '../assets/employee.png'
 import {useState,useEffect} from 'react'
 import {LiaHandshake} from 'react-icons/lia'
 import {BsCircle, BsCheck2All} from 'react-icons/bs'
-
+import Footer from "@/components/Footer/Footer";
+import RobotizeNews from '../assets/robotizeNews.png'
+import Vuelos from '../assets/vuelos.png'
+import Arrendamiento from '../assets/arrendamiento.png'
 
 export default function Home() {
   const [scroll,setScroll] = useState(false)
@@ -107,6 +110,34 @@ export default function Home() {
             </div>
           </article>
         </section>
+        <article className="text-center w-2/3 mx-auto border-t-2 py-20 flex flex-col gap-20 justify-center items-center">
+          <h2 className="text-3xl font-bold py-8 text-robotize">Algunos de nuestros proyectos</h2>
+          <div className="grid grid-cols-2 items-center gap-4">
+            <div>
+              <h4 className="text-robotize font-semibold text-2xl py-2 text-left">Noticias Robotize</h4>
+              <p className="text-left py-2">RobotizeWeb es un diario virtual actualizado. Utiliza el sistema de "Web Scrapping" para obtener noticias de ultimo momento y las filtra a traves de Chat GPT para modificarlas y crear su propio formato.</p>
+              <button className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</button>
+            </div>
+            <Image src={RobotizeNews} alt='RobotizeNews' width={450} height={150} className="border-2 border-[#441eae]"/>
+          </div>
+          <div className="grid grid-cols-2 justify-items-center px-4 items-center gap-4">
+            <Image src={Vuelos} alt='RobotizeFlight' width={450} height={150} className="border-2 border-[#441eae]"/>
+            <div>
+              <h4 className="text-robotize font-semibold text-2xl py-2 text-right">Vuelos Robotize</h4>
+              <p className="text-right py-2">Vuelos Robotize se ejecuta cada treinta minutos, entra a la pagina donde se ven reflejados todos los vuelos de la empresa y chequea si hay nuevos vuelos agregados para asi notificarselo a los pilotos. De esta manera cada piloto puede estar al tanto y sacar el maximo provecho.</p>
+              <button className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</button>
+            </div>
+          </div>
+          <div className="grid grid-cols-2 items-center gap-4">
+            <div>
+              <h4 className="text-robotize font-semibold text-2xl py-2 text-left">Arrendamiento Robotize</h4>
+              <p className="text-left py-2">Arrendamiento Robotize es un bot que todos los dias a las 15:30 agarra le Indice de Arrendamiento y los guarda en un archivo EXCEL. A fin de mes utiliza ese mismo archivo para obtener estadisticas y plasmarlo en una grilla ANUAL.</p>
+              <button className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</button>
+            </div>
+            <Image src={Arrendamiento} alt='RobotizeNews' width={450} height={150} className="border-2 border-[#441eae]"/>
+          </div>
+        </article>
+        <Footer/>
       </main>
     </>
   );
