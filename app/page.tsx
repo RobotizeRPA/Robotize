@@ -1,6 +1,4 @@
-// 'use client'
 import Navbar from "@/components/Navbar/Navbar";
-// import {useState,useEffect} from 'react'
 import Footer from "@/components/Footer/Footer";
 import Description from "@/components/Description/Description";
 import Benefits from "@/components/Benefits/Benefits";
@@ -8,19 +6,10 @@ import Quotes from "@/components/Quotes/Quotes";
 import Proyects from "@/components/Proyects/Proyects";
 
 export default function Home() {
-  // const [scroll,setScroll] = useState(false)
-
-  //   useEffect(()=>{
-  //       window.addEventListener("scroll",()=>{
-  //        if(window.scrollY > 0) setScroll(true)
-  //        else setScroll(false)
-  //       })
-  //   },[])
-  
+ 
   return (
     <>
       <div className="w-full border-[#441eae] border-b-2 shadow-xl sticky top-0 bg-white">
-      {/* <div className={scroll ? "w-full border-[#441eae] border-b-2 shadow-xl sticky top-0 bg-white" : "w-full border-b-2"}> */}
         <Navbar />
       </div>
       <main className="w-full mx-auto">
