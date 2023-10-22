@@ -9,7 +9,7 @@ export default function Proyects(){
             <div>
               <h4 className="text-robotize font-semibold text-2xl py-2 text-left max-sm:text-center">Noticias Robotize</h4>
               <p className="text-left py-2 max-sm:text-center">RobotizeWeb es un diario virtual actualizado. Utiliza el sistema de "Web Scrapping" para obtener noticias de ultimo momento y las filtra a traves de Chat GPT para modificarlas y crear su propio formato.</p>
-              <button className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</button>
+              <Link href='https://robotize-web.vercel.app/home' className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver pagina</Link>
             </div>
             <Image src='https://res.cloudinary.com/vuelosflights/image/upload/v1697926871/robotizenews_voibbf.png' alt='RobotizeNews' width={450} height={150} className="border-2 border-[#441eae]"/>
           </div>
