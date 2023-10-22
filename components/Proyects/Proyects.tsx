@@ -1,5 +1,5 @@
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 export default function Proyects(){
     return( 
@@ -18,7 +18,7 @@ export default function Proyects(){
             <div>
               <h4 className="text-robotize font-semibold text-2xl py-2 text-right max-sm:text-center">Vuelos Robotize</h4>
               <p className="text-right py-2 max-sm:text-center">Vuelos Robotize se ejecuta cada treinta minutos, entra a la pagina donde se ven reflejados todos los vuelos de la empresa y chequea si hay nuevos vuelos agregados para asi notificarselo a los pilotos. De esta manera cada piloto puede estar al tanto y sacar el maximo provecho.</p>
-              <button className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</button>
+              <Link href='https://youtu.be/BthnuG38yuU' className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</Link>
             </div>
             <Image src='https://res.cloudinary.com/vuelosflights/image/upload/v1697926901/vuelos_wfaxcu.png' alt='RobotizeFlight' width={450} height={150} className="border-2 border-[#441eae] hidden max-sm:flex"/>
           </div>
