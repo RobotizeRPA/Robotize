@@ -8,7 +8,7 @@ export default function Proyects(){
           <div className="grid grid-cols-2 items-center gap-4 max-sm:grid-cols-1">
             <div>
               <h4 className="text-robotize font-semibold text-2xl py-2 text-left max-sm:text-center">Noticias Robotize</h4>
-              <p className="text-left py-2 max-sm:text-center">RobotizeWeb es un diario virtual actualizado. Utiliza el sistema de "Web Scrapping" para obtener noticias de ultimo momento y las filtra a traves de Chat GPT para modificarlas y crear su propio formato.</p>
+              <p className="text-left py-2 max-sm:text-center">RobotizeWeb es un diario digital que emplea técnicas de "Web Scraping" para capturar noticias recientes. Luego, con la ayuda de Chat GPT, las procesa y reformula para presentarlas en un formato único y personalizado.</p>
               <Link href='https://robotize-web.vercel.app/home' className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver pagina</Link>
             </div>
             <Image src='https://res.cloudinary.com/vuelosflights/image/upload/v1697926871/robotizenews_voibbf.png' alt='RobotizeNews' width={450} height={150} className="border-2 border-[#441eae]"/>
@@ -17,7 +17,7 @@ export default function Proyects(){
             <Image src='https://res.cloudinary.com/vuelosflights/image/upload/v1697926901/vuelos_wfaxcu.png' alt='RobotizeFlight' width={450} height={150} className="border-2 border-[#441eae] max-sm:hidden"/>
             <div>
               <h4 className="text-robotize font-semibold text-2xl py-2 text-right max-sm:text-center">Vuelos Robotize</h4>
-              <p className="text-right py-2 max-sm:text-center">Vuelos Robotize se ejecuta cada treinta minutos, entra a la pagina donde se ven reflejados todos los vuelos de la empresa y chequea si hay nuevos vuelos agregados para asi notificarselo a los pilotos. De esta manera cada piloto puede estar al tanto y sacar el maximo provecho.</p>
+              <p className="text-right py-2 max-sm:text-center">El bot Vuelos Robotize opera cada treinta minutos, accediendo a la página que muestra todos los vuelos de la empresa. Verifica si se han añadido nuevos vuelos y, de ser así, notifica inmediatamente a los pilotos. Esto permite que cada piloto esté siempre informado y pueda aprovechar al máximo las oportunidades.</p>
               <Link href='https://youtu.be/BthnuG38yuU' className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</Link>
             </div>
             <Image src='https://res.cloudinary.com/vuelosflights/image/upload/v1697926901/vuelos_wfaxcu.png' alt='RobotizeFlight' width={450} height={150} className="border-2 border-[#441eae] hidden max-sm:flex"/>
@@ -25,7 +25,7 @@ export default function Proyects(){
           <div className="grid grid-cols-2 items-center gap-4 max-sm:grid-cols-1">
             <div>
               <h4 className="text-robotize font-semibold text-2xl py-2 text-left max-sm:text-center">Arrendamiento Robotize</h4>
-              <p className="text-left py-2 max-sm:text-center">Arrendamiento Robotize es un bot que todos los dias a las 15:30 agarra le Indice de Arrendamiento y los guarda en un archivo EXCEL. A fin de mes utiliza ese mismo archivo para obtener estadisticas y plasmarlo en una grilla ANUAL.</p>
+              <p className="text-left py-2 max-sm:text-center">Arrendamiento Robotize es un bot programado para capturar el Índice de Arrendamiento diariamente a las 15:30 y almacenarlo en un archivo Excel. Al concluir el mes, utiliza ese archivo para generar estadísticas que luego incorpora en una grilla anual.</p>
               <button className="text-center border-2 border-[#441eae] px-2 rounded-lg">Ver video</button>
             </div>
             <Image src='https://res.cloudinary.com/vuelosflights/image/upload/v1697926909/arrendamiento_auitip.png' alt='RobotizeNews' width={450} height={150} className="border-2 border-[#441eae]"/>
