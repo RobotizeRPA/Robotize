@@ -13,7 +13,7 @@ export default function Home() {
         <Navbar />
       </div>
       <main className="w-full mx-auto">
-        <section className="bg-[#441eae] pt-40 pb-20 max-sm:px-2 max-sm:pt-20">
+        <section className="bg-[#441eae] h-[40vh] max-sm:px-2 max-sm:pt-20 bg-no-repeat bg-cover bg-bannerBg">
           <Description/>
         </section>
         <article className="text-center w-2/3 mx-auto border-t-2 py-20 max-sm:px-2 max-sm:w-full">
