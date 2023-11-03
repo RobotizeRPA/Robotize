@@ -15,10 +15,21 @@ const config: Config = {
           'bannerBg':'url("https://res.cloudinary.com/vuelosflights/image/upload/v1698725461/Flights/r9xuh2adyhmjavz4dkzq.jpg")'
       },
       backgroundColor:{
-        'filtro': 'rgba(7, 7, 7, 0.295)'
+        'filtro': 'rgba(7, 7, 7, 0.295)',
+        'robotize': '#441eae'
       },
       textColor: {
         'robotize': "#441eae"
+      },
+      height: {
+        '60': '60vh',
+        '70': '70vh'
+      },
+      borderColor: {
+        'robotize': '#441eae'
+      },
+      fontSize: {
+        '100': '100px'
       }
     },
   },
