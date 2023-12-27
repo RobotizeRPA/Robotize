@@ -1,0 +1,6 @@
+.bg-transparent-image {
+    background-image: url('https://res.cloudinary.com/vuelosflights/image/upload/v1703705599/fondoDos_btpfjd.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+    opacity: 0.85; /* Ajusta esto para controlar la transparencia */
+  }
