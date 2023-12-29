@@ -6,7 +6,8 @@ interface vTitle{
 
 export const CardSubTitle = ({subtitle}:vTitle) => (
     <>
-      <p className="text-xs text-left pl-2 font-bold min-h-[50px] max-h-[50px] truncate-height">{subtitle}</p>
+      <p className="text-xs pl-2 min-h-[50px] max-h-[50px] truncate-height" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
+      
       <style jsx>{`
         .truncate-height {
           display: -webkit-box;

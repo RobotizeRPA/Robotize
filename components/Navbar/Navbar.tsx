@@ -18,6 +18,7 @@ export default function Navbar(){
             <HiOutlineBars3 className='text-3xl text-[#441eae] sm:hidden' onClick={() => setSidebar(true)}/>
             <div className='flex flex-row justify-center items-center gap-6 max-sm:hidden'>
                 <p className='cursor-pointer' onClick={() => router.push('/nosotros')}>Nosotros</p>
+                <p className='cursor-pointer' onClick={() => router.push('/blog')}>Blog</p>
                 {/* <p>¿Por que RPA?</p> */}
                 <button className='bg-[#441eae] border-none border-2 px-6 py-2 rounded-md text-white' onClick={() => router.push('/demo')}>Demo</button>
             </div>
