@@ -2,6 +2,8 @@ import Navbar from "@/components/Navbar/Navbar";
 import { getBlog } from "./service/blog.service";
 import BlogBody from "@/components/Blog/BlogBody";
 
+export const revalidate = 200;
+
 export default async function Vlog() {
     const data = await getBlog(1)
 
