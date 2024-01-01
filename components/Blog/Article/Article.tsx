@@ -1,7 +1,8 @@
 import { IBlog } from "@/types"
 import Logo from '../../../assets/imagenPerfilLimpio.png'
 import Image from "next/image"
-
+import Link from "next/link"
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 interface Props {
     data: IBlog
@@ -10,6 +11,7 @@ interface Props {
 export default function Article({data}: Props){
     return(
         <section className="border-2 w-2/3 mx-auto my-4 rounded-lg p-24">
+            <Link href='/blog'><IoMdArrowRoundBack className="text-2xl text-robotize"/></Link>
             <div className="flex justify-center items-center gap-10 pb-4">
             <Image src={Logo} alt={data.title} width={75} height={75}/>
             <p>Robotize RPA - {data.date}</p>
