@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar/Navbar";
 import { getBlog } from "./service/blog.service";
 import BlogBody from "@/components/Blog/BlogBody";
+import Footer from "@/components/Footer/Footer";
 
 export const revalidate = 200;
 
@@ -13,6 +14,9 @@ export default async function Vlog() {
         <Navbar />
       </div>
       <BlogBody data={data}/>
+      {/* <div className="border-t-2">
+      <Footer/>
+      </div> */}
     </>
   );
 }

@@ -20,6 +20,7 @@ export default function SideBar({setSidebar, sidebar}: Props){
             </div>
             <ul className='flex flex-col gap-4'>
                 <li><Link href='/nosotros' className='font-bold text-lg'>Nosotros</Link></li>
+                <li><Link href='/blog' className='font-bold text-lg'>Blog</Link></li>
                 {/* <li><Link href='/politica' className='font-bold text-lg'>¿Por que RPA?</Link></li> */}
                 <button className='bg-robotize border-none border-2 px-6 py-2 rounded-md text-white' onClick={() => router.push('/demo')}>Demo</button>
             </ul>

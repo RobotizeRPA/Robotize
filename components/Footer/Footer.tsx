@@ -4,7 +4,7 @@ import { PiFilePdfFill } from "react-icons/pi";
 
 export default function Footer(){
     return(
-        <footer className="w-2/3 mx-auto flex max-sm:flex-col max-sm:gap-4 justify-between p-4 text-center items-center border-t-2 max-sm:w-full max-sm:px-2">
+        <footer className="w-2/3 mx-auto flex max-sm:flex-col max-sm:gap-4 justify-between p-4 text-center items-center max-sm:w-full max-sm:px-2">
             <div className="flex flex-col gap-2 max-sm:hidden">
                 
                 <Link href='/nosotros'>Nosotros</Link>

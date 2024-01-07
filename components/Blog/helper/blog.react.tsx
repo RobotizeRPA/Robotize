@@ -6,7 +6,7 @@ interface vTitle{
 
 export const CardSubTitle = ({subtitle}:vTitle) => (
     <>
-      <p className="text-xs pl-2 min-h-[50px] max-h-[50px] truncate-height" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
+      <p className="text-xs pl-2 min-h-[50px] max-h-[50px] truncate-height max-sm:hidden" dangerouslySetInnerHTML={{ __html: subtitle }}></p>
       
       <style jsx>{`
         .truncate-height {

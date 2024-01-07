@@ -25,7 +25,9 @@ export default function Home() {
         <article className="text-center w-2/3 mx-auto border-t-2 py-20 flex flex-col gap-20 justify-center items-center max-sm:w-full max-sm:px-2">
           <Proyects/>
         </article>
+        <div className="border-t-2">
         <Footer/>
+        </div>
       </main>
     </>
   );

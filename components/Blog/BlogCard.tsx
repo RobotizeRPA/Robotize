@@ -18,7 +18,7 @@ export default function BlogCard({img,title,subtitle,date}: Props){
     console.log(titleLink)
 
     return(
-        <Link href={`/blog/${titleLink}`} className="grid grid-cols-2 w-3/4 mx-auto my-2 border-2 text-center min-h-[240px]">
+        <Link href={`/blog/${titleLink}`} className="grid grid-cols-2 max-sm:grid-cols-1 w-3/4 mx-auto my-2 border-2 text-center min-h-[240px] max-sm:w-full">
             <Image src={img} alt={title} width={750} height={500} className="object-cover"/>
             <div className="flex flex-col justify-between py-4">
                 <div className="grid grid-cols-2 place-items-center">
@@ -30,7 +30,7 @@ export default function BlogCard({img,title,subtitle,date}: Props){
                 </div>
                 <h4 className="pl-2 text-sm font-bold">{title}</h4>
                 {/* <p className="text-xs">{subtitle}</p> */}
-                <CardSubTitle subtitle={subtitle}/>
+                <CardSubTitle subtitle={subtitle} />
             </div>
         </Link>)
 }
