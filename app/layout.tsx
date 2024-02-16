@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto, Roboto_Mono } from 'next/font/google'
+import Script from 'next/script'
 
 const robotoMono = Roboto_Mono({
   subsets: ['latin'],
@@ -19,7 +20,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={robotoMono.className}>{children}</body>
+      <body className={robotoMono.className}><Script src="https://cdn.botpress.cloud/webchat/v1/inject.js" strategy="afterInteractive" />
+          <Script src="https://mediafiles.botpress.cloud/4ff505f2-01cd-418e-b4b6-0f87564fecb8/webchat/config.js" strategy="afterInteractive" />{children}</body>
     </html>
   )
 }
